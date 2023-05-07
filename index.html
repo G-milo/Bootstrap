@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment#4_Bootstrap</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css" />
+	<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+	<script>
+		$(document).ready(function(){
+			$(".question").click(function(){
+				$(this).find(".answer").slideToggle();
+			});
+		});
+	</script>
+</head>
+<body>
+	<h1>Bootstrap Questions</h1>
+	<div class="questions">
+		<h3>🟢 Click Questions to view Answers!</h3>
+		<div class="question">
+			<h3>What is Bootstrap?</h2>
+			<div class="answer">
+				<p>Bootstrap is a popular front-end development framework for creating responsive, mobile-first websites. 
+				   It is a powerful tool for web developers who want to create a high-quality, responsive websites and web applications quickly 
+				   and efficiently. It was developed by Twitter and is now an open-source project with a large community of contributors.
+				   <br> <br>
+				   Bootstrap provides a set of pre-designed HTML, CSS, and JavaScript components that can be easily customized and used to create 
+				   consistent and visually appealing user interfaces. Some of the components include navigation menus, forms, buttons, modals, 
+				   carousels.
+				   <br> <br>
+				   One of the benefits of Bootstrap is its responsive design, which means that websites built with Bootstrap automatically adjust 
+				   to different screen sizes and devices. This makes it easy to create websites that look great on desktops, laptops, tablets, 
+				   and smartphones.
+				   <br> <br>
+				   Bootstrap also comes with a robust grid system, which allows developers to easily create complex layouts with rows and 
+				   columns that adjust to different screen sizes. 
+				</p>
+			</div>
+		</div>
+		<div class="question">
+			<h3>Is it necessary to use Bootstrap in your web projects?</h2>
+			<div class="answer">
+				<p>No, it is not necessary to use Bootstrap in your web projects. While Bootstrap can be a useful tool for creating responsive and 
+				   visually appealing websites and web applications, it is not the only option available. However, Bootstrap can save you a lot of time 
+				   and effort in designing and building responsive websites. It provides a lot of pre-built CSS classes and JavaScript components that 
+				   you can use to quickly create common web elements like buttons, forms, and navigation menus.
+				   <br> <br>
+				   There are many other front-end frameworks and libraries, such as Foundation, Materialize, and Balma, that offer similar functionality 
+				   and can be used to achieve similar results. Additionally, some developers prefer to build their websites and web applications from 
+				   scratch without relying on a framework or library. 
+				</p>
+			</div>
+		</div>
+		<div class="question">
+			<h3>Give examples of some websites that currently use or used Bootstrap in the past.</h2>
+			<div class="answer">
+				<p>There are many popular websites that currently use or have used Bootstrap in the past. Some examples include:</p>
+				<ul>
+					<li>Twitter</li>
+					<li>Spotify</li>
+					<li>LinkedIn</li>
+					<li>Netflix</li>
+					<li>Dropbox</li>
+					<li>NBA</li>
+					<li>NASA</li>
+					<li>Airbnb</li>
+					<li>Lyft</li>
+					<li>Amazon Web Services</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
